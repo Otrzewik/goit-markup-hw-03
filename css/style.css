@@ -11,6 +11,30 @@
   --footer-mail-tel: #ffffff99;
 }
 
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  display: block;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   color: var(--brand-color-black);
@@ -22,6 +46,8 @@ body {
 
 .header {
   background-color: var(--brand-color-white);
+  padding-bottom: 24px;
+  padding-top: 24px;
 }
 
 .header-logo {
@@ -31,6 +57,11 @@ body {
   letter-spacing: 0.03em;
   word-spacing: -4px;
   line-height: 1.38;
+  align-items: center;
+}
+
+.header > .container {
+  display: flex;
 }
 
 .logo-part-blue {
@@ -69,6 +100,7 @@ body {
 .nav-menu {
   list-style-type: none;
   align-items: center;
+  display: flex;
 }
 .link:hover,
 .link:focus {
@@ -87,6 +119,26 @@ body {
 
 /* -- Main -- */
 
+body {
+  width: 1600px;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+  justify-content: center;
+  display: block;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 600px;
+}
 .btn {
   background-color: var(--brand-color-blue);
   border: none;
@@ -129,6 +181,13 @@ body {
   list-style: none;
 }
 
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30 px;
+}
+
 .section1 {
   background: var(--brand-color-background);
   color: var(--brand-color-white);
@@ -143,10 +202,16 @@ body {
   font-size: 44px;
   line-height: 1.36;
   text-align: center;
-  vertical-align: top;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--brand-color-white);
+  width: 696px;
+  height: 120px;
+}
+
+.title-section1-set {
+  padding-top: 200px;
+  margin-bottom: 30px;
 }
 
 .title-section2-0 {
@@ -157,6 +222,10 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
+.flex-conteiner {
+  display: inline-flex;
+}
+
 .text {
   color: var(--brand-color-lightgrey);
   font-weight: 400;

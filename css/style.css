@@ -46,9 +46,10 @@ body {
 
 .header {
   background-color: var(--brand-color-white);
-  padding-bottom: 24px;
-  padding-top: 24px;
+  padding-bottom: 32px;
+  padding-top: 32px;
   border: 1px solid #ececec;
+  display: flex;
 }
 
 .header-logo {
@@ -61,6 +62,10 @@ body {
   display: flex;
   align-items: center;
   margin-left: auto 0;
+  padding-left: 215px;
+  padding-right: 1240px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .logo-part-blue {
@@ -77,6 +82,7 @@ body {
   font-weight: 500;
   text-decoration: none;
   letter-spacing: 0.02em;
+  padding-left: 371px;
 }
 .tel {
   color: var(--brand-color-lightgrey);
@@ -84,6 +90,8 @@ body {
   font-weight: 500;
   text-decoration: none;
   letter-spacing: 0.02em;
+  padding-right: 227px;
+  padding-left: 50px;
 }
 
 .contact {
@@ -111,26 +119,27 @@ body {
 
 .header-logo-1 {
   display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
   padding-left: 215px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .nav-menu {
   list-style-type: none;
-  align-items: center;
   display: flex;
-  margin-right: auto;
   display: flex;
   justify-content: center;
   flex-direction: row;
-  gap: 50px;
+  gap: 46px;
   padding-right: 557px;
+  padding-left: 453px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  
 }
 
 .header-list {
   display: flex;
-  gap: 40 px;
 }
 
 .link:hover,
@@ -268,12 +277,25 @@ body {
   text-align: center;
   line-height: 1.2;
   letter-spacing: 0.03em;
+  padding-top: 94px;
+  padding-bottom: 50px;
+}
+
+.list-main {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  gap: 30px;
+  padding-top: 50px;
+  padding-bottom: 94px;
 }
 
 .list {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-around;
+  flex-direction: row;
+  padding-bottom: 108px;
   gap: 30px;
   padding-top: 50px;
   padding-bottom: 94px;
@@ -285,19 +307,21 @@ body {
   text-align: center;
   line-height: 1.2;
   letter-spacing: 0.03em;
+  padding-top: 94px;
+  padding-bottom: 50px;
 }
 
 .section3 {
   background-color: var(--brand-color-grey);
 }
+
+
 .people-pictures {
   background-color: var(--brand-color-white);
   width: 270px;
   height: 368px;
   top: 1635px;
   left: 215px;
-  display: flex;
-  align-items: center;
 }
 
 .people-names {
@@ -306,8 +330,6 @@ body {
   line-height: 1.2;
   text-align: center;
   letter-spacing: 0.03em;
-  display: flex;
-  align-items: center;
 }
 
 .people-jobs {
@@ -317,8 +339,15 @@ body {
   line-height: 1.2;
   text-align: center;
   letter-spacing: 0.03em;
+}
+
+.picture-figcaption{
   display: flex;
   align-items: center;
+  padding-bottom: 59px;
+  flex-direction: column;
+  padding-left: 70px;
+  padding-right: 70px;
 }
 
 .title-img {
@@ -356,6 +385,11 @@ body {
   word-spacing: -4px;
   line-height: 1.19;
   list-style-type: none;
+  padding-top: 60px;
+  padding-bottom: 161px;
+  padding-left: 215px;
+  padding-right: 1240px;
+  display: flex;
 }
 
 .footer-logo-blue {
@@ -368,6 +402,15 @@ body {
 
 .footer {
   background-color: var(--brand-color-background);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.list-footer{
+  list-style: none;
+  padding-top: 20px;
+  padding-bottom: 60px;
 }
 
 .address-footer {

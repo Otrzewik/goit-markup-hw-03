@@ -48,6 +48,7 @@ body {
   background-color: var(--brand-color-white);
   padding-bottom: 24px;
   padding-top: 24px;
+  border: 1px solid #ececec;
 }
 
 .header-logo {
@@ -58,10 +59,7 @@ body {
   word-spacing: -4px;
   line-height: 1.38;
   align-items: center;
-}
-
-.header > .container {
-  display: flex;
+  align-items: center;
 }
 
 .logo-part-blue {
@@ -97,11 +95,28 @@ body {
   letter-spacing: 0.02em;
 }
 
+.header-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-logo-1 {
+  display: flex;
+  justify-content: flex-start;
+}
+
 .nav-menu {
   list-style-type: none;
   align-items: center;
   display: flex;
+  margin-right: auto;
 }
+
+.header-list {
+  display: flex;
+  gap: 40 px;
+}
+
 .link:hover,
 .link:focus {
   color: var(--brand-color-blue);
@@ -126,11 +141,8 @@ body {
 
 .container {
   max-width: 1200px;
-  width: 100%;
   margin: 0 auto;
   padding: 0 15px;
-  justify-content: center;
-  display: block;
 }
 
 .main-content {

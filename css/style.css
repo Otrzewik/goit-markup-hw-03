@@ -61,7 +61,6 @@ body {
   line-height: 1.38;
   display: flex;
   align-items: center;
-  margin-left: auto 0;
   padding-left: 215px;
   padding-right: 1240px;
   padding-top: 32px;
@@ -115,6 +114,8 @@ body {
 .header-container {
   display: flex;
   justify-content: space-between;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .header-logo-1 {
@@ -135,11 +136,6 @@ body {
   padding-left: 453px;
   padding-top: 32px;
   padding-bottom: 32px;
-  
-}
-
-.header-list {
-  display: flex;
 }
 
 .link:hover,
@@ -315,13 +311,27 @@ body {
   background-color: var(--brand-color-grey);
 }
 
-
 .people-pictures {
   background-color: var(--brand-color-white);
   width: 270px;
   height: 368px;
   top: 1635px;
   left: 215px;
+}
+
+.figure-first {
+  padding-right: 30px;
+  padding-left: 215px;
+}
+
+.figure-fourth {
+  padding-right: 215px;
+  padding-left: 30px;
+}
+.figure-second,
+.figure-third {
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .people-names {
@@ -341,13 +351,31 @@ body {
   letter-spacing: 0.03em;
 }
 
-.picture-figcaption{
+.picture-figcaption {
   display: flex;
   align-items: center;
   padding-bottom: 59px;
   flex-direction: column;
   padding-left: 70px;
   padding-right: 70px;
+  padding-top: 30px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  background: #ffffff;
+}
+
+.people-jobs-fd {
+  color: var(--brand-color-lightgrey);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+  padding-left: 62px;
+  padding-right: 61px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .title-img {
@@ -407,7 +435,7 @@ body {
   flex-wrap: wrap;
 }
 
-.list-footer{
+.list-footer {
   list-style: none;
   padding-top: 20px;
   padding-bottom: 60px;
@@ -447,4 +475,40 @@ body {
 .tel-footer:hover,
 .tel-footer:focus {
   color: var(--brand-color-blue);
+}
+
+/* -- Portfolio -- */
+
+.list-btn2 {
+  display: flex;
+  flex-direction: row;
+  padding-right: 8px;
+  padding-left: 510px;
+  padding-top: 100px;
+  padding-bottom: 56px;
+}
+
+.figure-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.btn-marketing {
+  padding-right: 518px;
+}
+
+.figcaption-portfolio {
+  border: 1px solid #eeeeee;
+  border-top: none;
+}
+
+.title-img {
+  padding-left: 24px;
+  padding-top: 20px;
+  padding-bottom: 54px;
+}
+
+.desctiption {
+  padding-left: 24px;
+  padding-bottom: 50px;
 }

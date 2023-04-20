@@ -46,6 +46,8 @@ body {
 
 .header {
   border-bottom: 1px solid #ececec;
+  padding-top: 25px;
+  padding-bottom: 24px;
 }
 
 .header-logo {
@@ -55,7 +57,7 @@ body {
   text-decoration: none;
   letter-spacing: 0.03em;
   word-spacing: -4px;
-  line-height: 1.38;
+  line-height: 1.17;
   display: flex;
   align-items: center;
 }
@@ -101,10 +103,15 @@ body {
   justify-content: space-between;
 }
 
+.header-set {
+  display: flex;
+}
+
 .nav-menu {
   list-style-type: none;
   display: flex;
   gap: 46px;
+  padding-left: 93px;
 }
 
 .header-list {
@@ -257,19 +264,6 @@ body {
   background-color: var(--brand-color-white);
 }
 
-.figure-first {
-  padding-right: 30px;
-}
-
-.figure-fourth {
-  padding-left: 30px;
-}
-.figure-second,
-.figure-third {
-  padding-left: 30px;
-  padding-right: 30px;
-}
-
 .people-names {
   font-weight: 500;
   font-size: 16px;
@@ -292,9 +286,7 @@ body {
   align-items: center;
   padding-bottom: 59px;
   flex-direction: column;
-  padding-left: 70px;
-  padding-right: 70px;
-  padding-top: 30px;
+  padding: 30px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
@@ -308,8 +300,6 @@ body {
   line-height: 1.2;
   text-align: center;
   letter-spacing: 0.03em;
-  padding-left: 62px;
-  padding-right: 61px;
   display: flex;
   flex-wrap: wrap;
 }

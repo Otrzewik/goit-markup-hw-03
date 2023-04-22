@@ -413,7 +413,7 @@ body {
 
 .list-btn2 {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   padding-top: 100px;
   padding-bottom: 56px;
   gap: 8px;
@@ -427,15 +427,9 @@ body {
 .figcaption-portfolio {
   border: 1px solid #eeeeee;
   border-top: none;
+  padding: 20px 24px;
 }
 
-.title-img {
-  padding-left: 24px;
-  padding-top: 20px;
-  padding-bottom: 54px;
-}
-
-.desctiption {
-  padding-left: 24px;
-  padding-bottom: 50px;
+.figure-portfolio {
+  cursor: pointer;
 }
